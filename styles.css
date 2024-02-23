@@ -1,0 +1,11 @@
+#time-display-extension {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
