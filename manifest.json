@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Time Display",
+    "version": "1.0",
+    "description": "Displays the current time over all webpages.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  }
+  
